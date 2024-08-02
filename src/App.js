@@ -26,12 +26,15 @@ function App() {
 		switch (op) {
 			case '+':
 				setOperator('+')
+				setResult(false)
 				break
 			case '-':
 				setOperator('-')
+				setResult(false)
 				break
 			case '*':
 				setOperator('*')
+				setResult(false)
 				break
 			case 'C':
 				setOperand1('0')
